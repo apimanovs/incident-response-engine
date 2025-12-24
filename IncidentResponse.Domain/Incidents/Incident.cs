@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace IncidentResponse.Domain.Incidents;
 public class Incident
 {
-    public Guid Id { get; }
     public IncidentType Type { get; }
     public Severity? Severity { get; }
 }

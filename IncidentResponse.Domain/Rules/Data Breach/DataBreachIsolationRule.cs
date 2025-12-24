@@ -1,4 +1,5 @@
 ﻿using IncidentResponse.Domain.Incidents;
+using IncidentResponse.Domain.Risk;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace IncidentResponse.Domain.Rules;
 
-public class DataBreachIsolationRule : IDecisionRule
+public class DataBreachIsolationRule : IRiskRule
 {
     public bool IsApplicable(Incidents.Incident incident, System.SystemState systemState)
     {
@@ -15,7 +16,7 @@ public class DataBreachIsolationRule : IDecisionRule
                && systemState.IsDataExposed;
     }
 
-    public Decisions.Decision Evaluate(Incidents.Incident incident, System.SystemState systemState)
+    public RiskContribution Evaluate(Incidents.Incident incident, System.SystemState systemState)
     {
         var reasons = new List<Decisions.DecisionReason>
         {
@@ -26,8 +27,8 @@ public class DataBreachIsolationRule : IDecisionRule
             )
         };
 
-        return new Decisions.Decision(
-            Decisions.ResponseAction.IsolateService,
+        return new RiskContribution(
+            50,
             reasons
         );
     }

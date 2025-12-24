@@ -9,5 +9,5 @@ public class SystemState
 {
     public SystemStability Stability { get; }
     public bool IsDataExposed { get; }
-    int? LastDeploymentMinutesAgo { get; }
+    public int? LastDeploymentMinutesAgo { get; }
 }

@@ -1,4 +1,5 @@
 ﻿using IncidentResponse.Domain.Incidents;
+using IncidentResponse.Domain.Risk;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,14 +7,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace IncidentResponse.Domain.Rules.High_Severity_Escalation;
-public class HighSeverityEscalation : IDecisionRule
+public class HighSeverityEscalation : IRiskRule
 {
     public bool IsApplicable(Incidents.Incident incident, System.SystemState systemState)
     {
         return incident.Severity?.Value >= 4;
     }
 
-    public Decisions.Decision Evaluate(Incidents.Incident incident, System.SystemState systemState)
+    public RiskContribution Evaluate(Incidents.Incident incident, System.SystemState systemState)
     {
         var reasons = new List<Decisions.DecisionReason>
         {
@@ -24,8 +25,8 @@ public class HighSeverityEscalation : IDecisionRule
             )
         };
 
-        return new Decisions.Decision(
-            Decisions.ResponseAction.Escalate,
+        return new RiskContribution(
+            40,
             reasons
         );
     }
