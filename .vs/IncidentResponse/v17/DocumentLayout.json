@@ -1,10 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\",
+  "WorkspaceRootPath": "C:\\Users\\ArtjomsPimanovs\\source\\repos\\IncidentResponse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3E768264-A5C7-454E-9D8E-ED174883F02E}|IncidentResponse.Domain\\IncidentResponse.Domain.csproj|c:\\users\\\u0430\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\incidentresponse.domain\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E768264-A5C7-454E-9D8E-ED174883F02E}|IncidentResponse.Domain\\IncidentResponse.Domain.csproj|solutionrelative:incidentresponse.domain\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\IncidentResponse.Domain\\Models\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +13,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -34,14 +57,6 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
@@ -49,13 +64,11 @@
               "DocumentIndex": 0,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\IncidentResponse.Domain\\Models\\Class1.cs",
-              "RelativeDocumentMoniker": "IncidentResponse.Domain\\Models\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\IncidentResponse.Domain\\Models\\Class1.cs",
               "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\IncidentResponse.Domain\\Models\\Class1.cs",
-              "RelativeToolTip": "IncidentResponse.Domain\\Models\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "RelativeToolTip": "..\\..\\..\\..\\\u0410\u0440\u0442\u0451\u043C\\source\\repos\\incident-response-engine\\IncidentResponse.Domain\\Models\\Class1.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-26T14:18:16.093Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-26T14:18:16.093Z"
             }
           ]
         }
